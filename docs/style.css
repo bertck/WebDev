@@ -149,6 +149,11 @@ p {
     font-size: 1em;
 }
 
+.footer>p {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
 ul {
     display: flex;
     align-items: center;
