@@ -13,6 +13,7 @@
 * {
     margin: 0px;
     font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
 }
 
 a {
@@ -60,6 +61,7 @@ a:hover {
     text-align: center;
     color: aliceblue;
     text-transform: capitalize;
+    font-size: 1em;
 }
 
 .main {
@@ -67,9 +69,10 @@ a:hover {
     height: 85vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     color: azure;
     animation: contentPageTransition 1s;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .footer {
@@ -82,11 +85,47 @@ a:hover {
     justify-content: space-evenly;
 }
 
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th,
+td {
+    border: 1px solid aliceblue;
+    padding: 2vw;
+    text-align: left;
+}
+
+th {
+    background-color: azure;
+    color: rgb(31, 34, 53);
+}
+
+img {
+    border-radius: 25%;
+    width: 50vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
 ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     width: 100%;
 }
 
