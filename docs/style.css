@@ -10,7 +10,17 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-height: 800px) {
+    img {
+        display: none;
+    }
+
+    div.footer {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
     img {
         display: none;
     }
