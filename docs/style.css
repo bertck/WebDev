@@ -144,14 +144,14 @@ h2 {
 }
 
 p {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 10%;
     box-sizing: border-box;
     font-size: 1em;
 }
 
-li>p {
-    padding: 10%;
+.footer>p {
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 ul {
